@@ -1,0 +1,22 @@
+.head-about {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.custom{
+    background-color: blueviolet;    
+}
+
+.rounded {
+   width: 200px;
+   border: 2px solid black;
+   margin-right: 15px;  
+}
+
+.about-text {
+    position: relative;
+    background-clip: border-box;
+    width: 95%;
+    line-height: 50px;   
+}
