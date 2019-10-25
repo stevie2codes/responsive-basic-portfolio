@@ -1,11 +1,22 @@
+body,html{
+    background-image: url(/assets/images/email-pattern.png);
+}
+.navbar{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
 .head-about {
     margin-bottom: 30px;
     margin-top: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dddddd;
 }
 
 .custom{
-    background-color: blueviolet;    
+    background-color: #ffffff; 
+    border: 2px solid #cccccc;
+    box-shadow: lightgray 0px 0px 10px;
+      
 }
 
 .rounded {
@@ -19,4 +30,10 @@
     background-clip: border-box;
     width: 95%;
     line-height: 50px;   
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: White; 
 }
