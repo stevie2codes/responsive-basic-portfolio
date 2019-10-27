@@ -1,7 +1,9 @@
 body,html{
     background-image: url(/assets/images/email-pattern.png);
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    display: flex;
+    min-height: 100vh;
+  flex-direction: column;
 }
 .navbar{
     margin-bottom: 20px;
@@ -21,6 +23,7 @@ body,html{
     background-color: #ffffff; 
     border: 2px solid #cccccc;
     box-shadow: lightgray 0px 0px 10px;
+    flex: 1;
 }
 
 .rounded-circle {
@@ -38,9 +41,10 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* .foot {
+    margin-top: 200px;
+} */
 
-#sticky-footer {
-    margin-top: 20px;
-    
-}
+
+
 
