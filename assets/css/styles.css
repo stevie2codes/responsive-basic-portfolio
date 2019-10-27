@@ -3,16 +3,12 @@ body,html{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     min-height: 100vh;
-  flex-direction: column;
+    flex-direction: column; 
 }
-.navbar{
-    margin-bottom: 20px;
-    background-color: #ffffff;
+ .navbar{
     border-bottom: 2px solid #cccccc;
-}
-/* .navbar-nav{
-    flex-direction: row;
-} */
+ }
+
 .head-about {
     margin-bottom: 30px;
     margin-top: 20px;
@@ -41,9 +37,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* .foot {
-    margin-top: 200px;
-} */
 
 
 
