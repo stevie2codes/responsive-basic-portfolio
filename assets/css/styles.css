@@ -2,8 +2,7 @@ body,html{
     background-image: url(/assets/images/email-pattern.png);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    min-height: 100vh;
-    flex-direction: column; 
+     flex-direction: column;  
 }
 
 .head-about {
@@ -16,6 +15,7 @@ body,html{
     background-color: #ffffff; 
     border: 2px solid #cccccc;
     box-shadow: lightgray 0px 0px 10px;
+   
 }
 
 .rounded-circle {

@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Contact</title>
-  </head>
-  <body>
-    <nav class=" d-flex  p-0 flex-wrap navbar navbar-expand-lg navbar-light mb-4 bg-light border-bottom border-black-50 shadow-sm">
-      <div class="row">
-        <div class="navbar-brand col-md-6 p-0 ml-3">
-          <h3 class="bg-info d-md-inline-flex text-white p-3 ml-5 mb-0">Stephen Webb</h3>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Contact</title>
+</head>
+
+<body>
+  <nav class=" col-12  d-flex p-0 flex-wrap navbar-expand-lg navbar-light  bg-light border-bottom border-black-50 shadow-sm">
+    <div class="row">
+      <div class="navbar-brand col-md-12 col-xs-12 p-0 ml-lg-3">
+        <h3 class="bg-info d-sm-inline-flex text-white p-3 ml-5 mb-0">Stephen Webb</h3>
+      </div>
+    </div>
+    <ul class="navbar-nav ml-auto d-flex flex-row mx-2 mt-3">
+      <li class="nav-item mx-2 border-right pr-2">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item mx-2 border-right pr-2">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container custom mb-4 ml-lg-5 mt-3">
+    <form>
+      <div class="form-group">
+        <div class="head-about text-info">
+          <h2 class="mb-3">Contact</h2>
+        </div>
+        <label for="first name">Name</label>
+        <input type="text" class="form-control mb-4" placeholder="First name">
+
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email">
+
+      </div>
+      <div class="container px-1">
+        <div class="form-group">
+          <label for="comment">Message</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
       </div>
-      <ul class="navbar-nav ml-auto d-flex flex-row mx-2">
-        <li class="nav-item mx-2 border-right pr-2">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item mx-2 border-right pr-2">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+      <button type="submit" class="btn btn-primary mb-4 btn-info">Submit</button>
+    </form>
+  </div>
 
-<div class="container custom mb-5 ml-5">
-    <form>
-            <div class="form-group">
-                    <div class="head-about text-info" >
-                            <h2 class="mb-3">Contact</h2>
-                          </div>
-                          <label for="first name">Name</label>
-              <input type="text" class="form-control mb-4" placeholder="First name">
 
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        
-            </div>
-            <div class="container px-1"> 
-                      <div class="form-group">
-                        <label for="comment">Message</label>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                      </div>
-                      </div>
-            <button type="submit" class="btn btn-primary mb-4 btn-info">Submit</button>
-          </form>
-        </div>
-   
-    
 
-    <div class="container foot">
+  <div class="container foot">
     <footer class="pt-3 border-top mb-0 rounded-top border-info page-footer font-small fixed-bottom bg-dark">
       <div class="footer-copyright text-center">Copyright&copy;</div>
-  </footer>
-</div>
-  </body>
+    </footer>
+  </div>
+</body>
+
 </html>
