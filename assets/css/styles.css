@@ -19,7 +19,6 @@ body,html{
     background-color: #ffffff; 
     border: 2px solid #cccccc;
     box-shadow: lightgray 0px 0px 10px;
-    flex: 1;
 }
 
 .rounded-circle {
