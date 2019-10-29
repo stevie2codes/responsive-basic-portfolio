@@ -41,6 +41,8 @@ html {
 
 .rounded-circle {
   width: 200px;
+  border: 0;
+  box-shadow: #cccccc 0px 0px 10px;
 }
 
 .about-text {
@@ -57,3 +59,20 @@ h2 {
  .nav-link{
     font-size:1rem;
 } 
+
+.move {
+    bottom: 15px;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+.round img{
+    border-radius: 4px;
+    box-shadow: #777777 0px 0px 10px;
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
