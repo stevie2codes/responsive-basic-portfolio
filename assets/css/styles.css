@@ -1,12 +1,30 @@
 body,
 html {
   box-sizing: border-box;
-  
-  background-image: linear-gradient(to right, #d5fefd 0%, #fffcff 74%);
-  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(to right,#1a2980, #26d0ce 50%);
+  background-size: 400%;
+  animation: bganimation 15s infinite;
+}
+
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+   50%{
+       background-position: 100% 50%;
+   }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.ss{
+    background-image: linear-gradient(to right,#1a2980, #26d0ce 50%);
+    animation: bganimation 15s infinite;
+    background-size: 400%;
 }
 
 .head-about {
