@@ -17,7 +17,7 @@ Utilizing only the CSS link
 
 ## Authors
 
-* **YourWork** - *Initial work* - [StephenWebb](https://stevie2codes.github.io/responsive-basic-portfolio/)
+* **Stephen Webb** - *Initial work* - [Responsive Portfolio](https://stevie2codes.github.io/responsive-basic-portfolio/)
 
 
 
