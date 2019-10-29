@@ -1,7 +1,9 @@
 body,
 html {
   box-sizing: border-box;
-  background-image: url(/assets/images/email-pattern.png);
+  
+  background-image: linear-gradient(to right, #d5fefd 0%, #fffcff 74%);
+  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
