@@ -2,40 +2,44 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/styles.css">
-
   <title>Portfolio</title>
 </head>
 
 <body>
-
+  <!--NAV-->
   <nav
-    class=" col-12  d-flex p-0 flex-wrap navbar-expand-lg navbar-light  bg-light border-bottom border-black-50 shadow-sm">
+    class="navbar-expand overflow-hidden col-md-12 d-flex p-0  navbar-light bg-light border-bottom border-black-50 shadow-sm">
     <div class="row">
-      <div class="navbar-brand col-md-12 col-xs-12 p-0 ml-lg-3">
-        <h3 class="bg-info d-sm-inline-flex text-white p-3 ml-5 mb-0">Stephen Webb</h3>
+      <div class="navbar-brand min-vw-100 col-12 pb-0 pt-0 ml-sm-0  mr-sm-5 ml-md-3">
+        <h3 class="bg-info text-center d-md-inline-flex text-white p-3 ml-md-5">
+          Stephen Webb
+        </h3>
+
+        <ul
+          class="navbar-nav mt-md-n5 col-12 overflow-hidden justify-content-md-end d-flex flex-row justify-content-sm-center">
+          <li class="nav-item  border-right pr-2">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item  border-right pr-2">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item mr-md-5 pr-md-4">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <ul class="navbar-nav ml-auto d-flex flex-row mx-2 mt-3">
-      <li class="nav-item mx-2 border-right pr-2">
-        <a class="nav-link" href="index.html">About</a>
-      </li>
-      <li class="nav-item mx-2 border-right pr-2">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item mx-2">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
   </nav>
 
+  <!--Main Content-->
   <div class="container custom mb-4 ml-lg-5 mt-3">
     <div class="head-about text-info">
       <h2 class="mb-3">Portfolio</h2>
@@ -82,8 +86,7 @@
     </div>
   </div>
 
-
-
+  <!--Footer-->
   <div class="mt-5 container foot"></div>
   <footer class="pt-3 border-top mb-0 rounded-top border-info page-footer font-small fixed-bottom bg-dark">
     <div class="footer-copyright text-center">Copyright&copy;</div>

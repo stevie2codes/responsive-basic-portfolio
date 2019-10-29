@@ -12,39 +12,45 @@
 </head>
 
 <body>
+  <!--Nav-->
   <nav
-    class="navbar-expand-md col-12 d-flex p-0  navbar-light bg-light border-bottom border-black-50 shadow-sm">
+    class="navbar-expand overflow-hidden col-md-12 d-flex p-0  navbar-light bg-light border-bottom border-black-50 shadow-sm">
     <div class="row">
-      <div class="navbar-brand min-vw-100 col-12 p-0  ml-md-3">
-        <h3 class="bg-info text-center d-md-inline-flex text-white p-3 ml-md-4">Stephen Webb</h3>   
-    <ul class="navbar-nav  mt-md-n5 col-12 justify-content-md-end d-flex flex-row justify-content-sm-center ">
-      <li class="nav-item mx-2 border-right pr-2">
-        <a class="nav-link" href="index.html">About</a>
-      </li>
-      <li class="nav-item mx-2 border-right pr-2">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item mx-2 mr-md-4">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
+      <div class="navbar-brand min-vw-100 col-12 pb-0 pt-0 ml-sm-0  mr-sm-5 ml-md-3">
+        <h3 class="bg-info text-center d-md-inline-flex text-white p-3 ml-md-5">
+          Stephen Webb
+        </h3>
+
+        <ul
+          class="navbar-nav mt-md-n5 col-12 overflow-hidden justify-content-md-end d-flex flex-row justify-content-sm-center">
+          <li class="nav-item  border-right pr-2">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item  border-right pr-2">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item mr-md-5 pr-md-4">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <div class="container custom mb-5 ml-lg-5 mt-3">
+  <!--Main Content-->
+
+  <div class="container custom mb-5 ml-md-5 mt-3">
     <form>
       <div class="form-group">
         <div class="head-about text-info">
           <h2 class="mb-3">Contact</h2>
         </div>
         <label for="first name">Name</label>
-        <input type="text" class="form-control mb-4" placeholder="First name">
+        <input type="text" class="form-control mb-4" placeholder="First name" />
 
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Enter email">
-
+          placeholder="Enter email" />
       </div>
       <div class="container px-1">
         <div class="form-group">
@@ -52,12 +58,12 @@
           <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary mb-4 btn-info">Submit</button>
+      <button type="submit" class="btn btn-primary mb-4 btn-info">
+        Submit
+      </button>
     </form>
   </div>
-
-
-
+  <!--Footer-->
   <div class="container foot">
     <footer class="pt-3 border-top mb-0 rounded-top border-info page-footer font-small fixed-bottom bg-dark">
       <div class="footer-copyright text-center">Copyright&copy;</div>

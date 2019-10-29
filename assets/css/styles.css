@@ -33,3 +33,7 @@ html {
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+ .nav-link{
+    font-size:1rem;
+} 
